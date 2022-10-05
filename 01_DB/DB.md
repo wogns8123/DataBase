@@ -153,8 +153,6 @@ SELECT first_name,age FROM users WHERE age < 20 OR age>30;
 
 - SQLite는 Boolean 데이터 타입을 제공하지않기때문에 1 == TRUE, 0 == FALSE
 
-
-
 LIMIT 
 
 ```sql
@@ -171,12 +169,11 @@ SELECT rowid, first_name FROM users LIMIT 10 OFFSET 10:
 
 LIMIT 절을 사용하면 첫 번째 데이터부터 지정한 수만큼의 데이터를 받아올 수 있지만 OFFSET절과 함께 사용하면 특정 지정된 위치에서부터 데이터를 조회할 수 있음
 
-
-
 ### GROUP
 
 ```sql
--- GROUPSELECT country,COUNT(*) FROM users GROUP BY country;
+-- GROUP
+SELECT country,COUNT(*) FROM users GROUP BY country;
 SELECT COUNT(*) FROM users;
 SELECT AVG(age) FROM users WHERE age>=30;
 SELECT last_name,COUNT(*) AS number_of_name FROM users GROUP BY last_name;;
@@ -187,10 +184,6 @@ SELECT last_name,COUNT(*) AS number_of_name FROM users GROUP BY last_name;;
 - 집계함수 AVG(), COUNT(), MAX(), MIN(), SUM()
 
 - 값 집합에 대한 계산을 수행하고 단일 값 반환 
-
-
-
-
 
 ## INSERT INTO
 
@@ -206,8 +199,6 @@ VALUES ('홍길동',23,'서울'),
 ('정요한',28,'경상');
 ```
 
-
-
 #### UPDATE
 
 ```sql
@@ -216,8 +207,6 @@ UPDATE classmate
 SET name = '김철수한무두루미',address='제주도'
 WHERE rowid = 2;
 ```
-
-
 
 #### DELETE
 
