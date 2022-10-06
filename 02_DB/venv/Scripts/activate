@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\wogns\Desktop\SSAFY\DataBase\02_DB\venv"
+VIRTUAL_ENV="C:\Users\SSAFY\Desktop\SSAFY\DataBase\02_DB\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
