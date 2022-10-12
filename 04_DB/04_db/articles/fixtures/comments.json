@@ -1,0 +1,57 @@
+[
+{
+    "model": "articles.comment",
+    "pk": 1,
+    "fields": {
+        "article": 1,
+        "user": 1,
+        "content": "gg",
+        "created_at": "2022-10-12T07:08:26.238Z",
+        "updated_at": "2022-10-12T07:08:26.238Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 2,
+    "fields": {
+        "article": 2,
+        "user": 2,
+        "content": "ㅁㄴㅇㄹ",
+        "created_at": "2022-10-12T07:10:55.781Z",
+        "updated_at": "2022-10-12T07:10:55.781Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 3,
+    "fields": {
+        "article": 1,
+        "user": 2,
+        "content": "ㅁㄴㅇㄹ",
+        "created_at": "2022-10-12T07:10:59.202Z",
+        "updated_at": "2022-10-12T07:10:59.202Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 4,
+    "fields": {
+        "article": 3,
+        "user": 2,
+        "content": "3번째 ㅎㅎ",
+        "created_at": "2022-10-12T08:31:13.366Z",
+        "updated_at": "2022-10-12T08:31:13.366Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 5,
+    "fields": {
+        "article": 2,
+        "user": 1,
+        "content": "댓글 작성",
+        "created_at": "2022-10-12T08:31:45.472Z",
+        "updated_at": "2022-10-12T08:31:45.472Z"
+    }
+}
+]
