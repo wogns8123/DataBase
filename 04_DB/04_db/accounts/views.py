@@ -115,7 +115,7 @@ def follow(request, user_pk):
         # 내가(request.user) 그 사람의 팔로워 목록에 있다면
         if person != request.user:
             # if request.user in person.followers.all():
-            if person.followers.filter(pk=request.user.pk).exists():
+            if person.followers.filter(k=request.user.pk).exists():
             # 언팔
                 person.followers.remove(request.user)
             else:
