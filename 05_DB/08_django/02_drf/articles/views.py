@@ -23,10 +23,6 @@ def article_list(request):
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         # return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
     
-
-
-
-
 # 단일객체이기 때문에 하나
 @api_view(['GET','DELETE', 'PUT'])
 def article_detail(request, article_pk):

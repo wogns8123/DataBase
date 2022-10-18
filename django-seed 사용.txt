@@ -1,0 +1,9 @@
+pip install django-seed
+pip install psycopg2
+
+settings.py INSTALLED_APPS에 'django_seed' 추가 
+
+python manage.py migrate
+
+python manage.py seed articles --number=20
+
